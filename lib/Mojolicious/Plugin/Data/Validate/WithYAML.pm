@@ -44,6 +44,33 @@ sub register {
 
         return %prefixed_errors;
     });
+
+    $app->helper( 'fieldinfo' => sub {
+        my ($c, $file, $field, $subinfo) = @_;
+
+        if ( !$file ) {
+            my @caller = caller(2);
+            $file      = (split /::/, $caller[3])[-1];
+        }
+
+        my $path = File::Spec->rel2abs( File::Spec->catfile( $config->{conf_path}, $file . '.yml' ) );
+
+        if ( !-e $path ) {
+            croak "$path does not exist";
+        }
+
+        my $validator = Data::Validate::WithYAML->new(
+            $path,
+            %{ $config || { no_steps => 1 } },
+        ) or croak $Data::Validate::WithYAML::errstr;
+
+        my $info = $validator->fieldinfo( $field );
+
+        return if !$info;
+
+        return $info if !$subinfo;
+        return $info->{$subinfo};
+    });
 }
 
 1;

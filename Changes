@@ -1,6 +1,11 @@
 Change history for Mojolicious::Plugin::Data::Validate::WithYAML
 ================================================================
 
+0.02  2013-10-24
+
+      * added helper for "fieldinfo"      
+
 0.01  2013-10-15
+
       initial version
 
