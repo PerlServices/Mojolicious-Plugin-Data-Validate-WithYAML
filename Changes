@@ -1,6 +1,10 @@
 Change history for Mojolicious::Plugin::Data::Validate::WithYAML
 ================================================================
 
+0.04  2013-10-27
+
+      * use VersionFromModule
+
 0.03  2013-10-24
 
       * use PodWeaver

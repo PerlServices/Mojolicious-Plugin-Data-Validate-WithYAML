@@ -11,6 +11,8 @@ use Carp;
 use Data::Validate::WithYAML;
 use File::Spec;
 
+our $VERSION = 0.04;
+
 sub register {
     my ($self, $app, $config) = @_;
 
