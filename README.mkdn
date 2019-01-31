@@ -8,7 +8,7 @@ Mojolicious::Plugin::Data::Validate::WithYAML - validate form input with Data::V
 
 # VERSION
 
-version 0.04
+version 0.05
 
 # SYNOPSIS
 
