@@ -11,7 +11,7 @@ use Carp;
 use Data::Validate::WithYAML;
 use Mojo::File qw(path);
 
-our $VERSION = 0.05;
+our $VERSION = 0.06;
 
 sub register {
     my ($self, $app, $config) = @_;
