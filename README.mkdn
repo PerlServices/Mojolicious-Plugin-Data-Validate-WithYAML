@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/reneeb/Mojolicious-Plugin-Data-Validate-WithYAML.svg?branch=master)](https://travis-ci.org/reneeb/Mojolicious-Plugin-Data-Validate-WithYAML)
-[![Kwalitee status](http://cpants.cpanauthors.org/dist/Mojolicious-Plugin-Data-Validate-WithYAML.png)](http://cpants.charsbar.org/dist/overview/Mojolicious-Plugin-Data-Validate-WithYAML)
-[![GitHub issues](https://img.shields.io/github/issues/reneeb/Mojolicious-Plugin-Data-Validate-WithYAML.svg)](https://github.com/reneeb/Mojolicious-Plugin-Data-Validate-WithYAML/issues)
+[![Build Status](https://travis-ci.org/perlservices/Mojolicious-Plugin-Data-Validate-WithYAML.svg?branch=master)](https://travis-ci.org/perlservices/Mojolicious-Plugin-Data-Validate-WithYAML)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/Mojolicious-Plugin-Data-Validate-WithYAML.png)](https://cpants.cpanauthors.org/dist/Mojolicious-Plugin-Data-Validate-WithYAML)
+[![GitHub issues](https://img.shields.io/github/issues/perlservices/Mojolicious-Plugin-Data-Validate-WithYAML.svg)](https://github.com/perlservices/Mojolicious-Plugin-Data-Validate-WithYAML/issues)
+[![CPAN Cover Status](https://cpancoverbadge.perl-services.de/Mojolicious-Plugin-Data-Validate-WithYAML-0.06)](https://cpancoverbadge.perl-services.de/Mojolicious-Plugin-Data-Validate-WithYAML-0.06)
 
 # NAME
 
@@ -8,7 +9,7 @@ Mojolicious::Plugin::Data::Validate::WithYAML - validate form input with Data::V
 
 # VERSION
 
-version 0.05
+version 0.06
 
 # SYNOPSIS
 
@@ -79,7 +80,7 @@ The distribution is contained in a Git repository, so simply clone the
 repository
 
 ```
-$ git clone git://github.com/reneeb/Mojolicious-Plugin-Data-Validate-WithYAML.git
+$ git clone git://github.com/perlservices/Mojolicious-Plugin-Data-Validate-WithYAML.git
 ```
 
 and change into the newly-created directory.
